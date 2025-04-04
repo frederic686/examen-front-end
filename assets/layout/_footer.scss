@@ -1,0 +1,12 @@
+.footcolumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.footcolumn-1 , .footcolumn-2 , .footcolumn-3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}

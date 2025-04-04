@@ -1,0 +1,14 @@
+conceptualisation du site 4 elements
+
+utiliser le javascript pour le carrousel en cliquant sur  bouton gauche ou droite ainsi l'image défilé un par un 
+utiliser le javascript pour le formulaire du modal qui sert a calculer le prix total aussi quand l'option petit dejeuner ou repas et cocher de faire apparaitre les champs regime alimentaire ( vegan, vegetarien ou non ) ou si il a des alergie en (gluten , lactose et autre ) 
+
+idee de amelioration
+grace a l'API meteo pn peut rajouter une case meteo dans la home page qui affichera l'heure et la meteo selon notre localisation puis proposera en fonction du meteo des sugestion humoristique c'est a dire 
+si on se trouve dans un endroit froid ces a dire a moins 0°C degres une phrase apparait "voulais vous vous rechaufer voici les hotel du feu "
+si on se trouve dans un endroit chaud ces a dire a plus de 30°C degres une phrase apparai "voulais vous une baignade voici les hotel du eau"
+si on se trouve dans un endroit centre ville  ces a dire des grandes villes "voulais vous etre loin de la polution et respirer voici les hotel de l'air "
+ainsi de suite on pourra faire plein de combianaison avec la temerature et la localisation pour proposer au client 
+et sur chaque pages des element il y aura la temperature de la ville de l'hotel qui sera afficher 
+
+

@@ -1,0 +1,47 @@
+
+@use "../components/fonts/font";
+@use "../abstracts/colors";
+
+
+
+.navigation{
+    li{
+        a{
+            font-family:Karla-Regular;
+            
+        }
+    }
+}
+
+h1 {
+    font-family:PlayfairDisplay-Medium;
+    font-size: 5rem;
+    color: colors.$primary-color;
+    text-transform: capitalize;
+}
+
+h5{
+    font-family: Karla-Bold;
+    color: colors.$primary-color;
+    text-transform: capitalize;
+}
+
+p {
+    font-family:Karla-Regular;
+    font-size: 20px;
+    color: colors.$primary-color;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-family:PlayfairDisplay-Medium;
+    color: colors.$primary-color;
+    text-transform: capitalize;
+}
+
+.picto-content {
+    h4 , p {
+        color: white;
+        text-transform: capitalize;
+    }
+}
