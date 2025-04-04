@@ -2,17 +2,22 @@
 @use "../abstracts/colors";
 @use "../abstracts/typography";
 
+
 main {
     background-color: colors.$background-color;
 }
 
+.reservation {
+    height: auto;
+}
 
 
 .hotel {
-    display: flex;
+
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        padding: 15rem 0 0 0;
 
     }
 

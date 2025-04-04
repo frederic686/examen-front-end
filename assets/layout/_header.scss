@@ -6,6 +6,8 @@
     }
     .mobile{
         background-color: red;
+        width: 100%;
+        border: solid;
     }
 }
 
@@ -97,6 +99,7 @@
         
                 span {
                     background-color: colors.$secondary-color;
+                    padding: 2rem;
                 }
             }
         }

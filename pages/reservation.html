@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>reservation</title>
+</head>
+<body>
+    <form id="form">
+        <div>
+            <label>prenom:</label>
+            <input type="text" id="firstname">
+        </div>
+        <div>
+            <label>nom:</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <h2>adresse postal</h2>
+            <label>numero de rue</label>
+            <input type="text" id="num-rue">
+            <label>nom de la rue</label>
+            <input type="text" id="name-rue">
+            <label>code postal</label>
+            <input type="text" id="postal-code">
+            <label>ville</label>
+            <input type="text" id="ville">
+        </div>
+        <div>
+            <label>Email :</label>
+            <input type="text" id="email">
+        </div>
+        <div>
+            <label>Téléphone :</label>
+            <input type="text" id="phone">
+        </div>
+        <div>
+            <label for="datearrive">date d'arrive</label>
+            <input type="date" id="datearrive">
+        </div>
+        <div>
+            <label for="datedepart">date de depart</label>
+            <input type="date" id="datedepart">
+        </div>
+        <div>
+            <label for="servicesupp">service supplementaire</label>
+            <input type="checkbox" name="" id="chauffeur">chauffeur
+            <input type="checkbox" name="" id="petitdej">petit dejeuner
+            <input type="checkbox" name="" id="guide">guide
+        </div>
+        <button type="submit">Envoyer</button>
+    </form>
+    
+<div id="result" class="error"></div>    
+<div id="date"></div>
+<div id="date1"></div>
+</body>
+<script src="./reservation.js"></script>
+</html>

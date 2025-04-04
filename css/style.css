@@ -10,6 +10,8 @@
   }
   .mobile {
     background-color: red;
+    width: 100%;
+    border: solid;
   }
 }
 @media (min-width: 768px) {
@@ -93,6 +95,7 @@ a {
 }
 .other .login span {
   background-color: #4f6234;
+  padding: 2rem;
 }
 
 .footcolumn {
@@ -164,15 +167,23 @@ h2 {
   text-transform: capitalize;
 }
 
+a {
+  font-family: Karla-Regular;
+}
+
 main {
   background-color: #e5e0dc;
 }
 
+.reservation {
+  height: auto;
+}
+
 .hotel {
-  display: flex;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  padding: 15rem 0 0 0;
 }
 
 .hotel-1, .hotel-3 {
@@ -312,6 +323,95 @@ section {
     object-fit: cover;
   }
 }
+.modal {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9c7b3;
+  width: 51%;
+  height: 14rem;
+  border-radius: 5%;
+  position: absolute;
+  z-index: 1000;
+  top: 95%;
+  left: 25%;
+}
+
+.cardmodal {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+
+.selection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hotels, .number, .datearival {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.carrousel-container {
+  position: relative;
+  width: 70%;
+  overflow: hidden;
+}
+
+.carrousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.picto-1 {
+  flex: 0 0 100%;
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.picto-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.picto-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  left: 100%;
+}
+
 .row {
   padding: 0 0 0 20rem;
 }

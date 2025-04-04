@@ -1,10 +1,13 @@
-conceptualisation du site 4 elements
+conceptualisation du site 4 elements sur javascript
 
-utiliser le javascript pour le carrousel en cliquant sur  bouton gauche ou droite ainsi l'image défilé un par un 
-utiliser le javascript pour le formulaire du modal qui sert a calculer le prix total aussi quand l'option petit dejeuner ou repas et cocher de faire apparaitre les champs regime alimentaire ( vegan, vegetarien ou non ) ou si il a des alergie en (gluten , lactose et autre ) 
+-lorsque on reduit la fenetre et que sa passe en version mobile le menu burger apparait il faut lorque on clique sur le burger apparait les lien vers les pages (feu, eau, terre et air )
+-lorsque on clique sur l'image de chaque hotel remplace l'autre image
+-pour le carrousel en cliquant sur  bouton gauche ou droite ainsi l'image défilé un par un
+-pour pas que la date arrivee sois anterieur a aujourdhui déjà faut relier le site a une api qui donne l'heure en temsp reel ainsi faire une condition pour que si la date de arrivee et anterieur a ajourd'hui alors sa passe pas 
+-pour le formulaire du modal qui sert a calculer le prix total aussi quand l'option petit dejeuner ou repas et cocher de faire apparaitre les champs regime alimentaire ( vegan, vegetarien ou non ) ou si il a des alergie en (gluten , lactose et autre ) 
 
 idee de amelioration
-grace a l'API meteo pn peut rajouter une case meteo dans la home page qui affichera l'heure et la meteo selon notre localisation puis proposera en fonction du meteo des sugestion humoristique c'est a dire 
+grace a l'API meteo pn peut rajouter une case meteo dans la home page qui affichera la meteo selon notre localisation puis proposera en fonction du meteo des sugestion humoristique c'est a dire 
 si on se trouve dans un endroit froid ces a dire a moins 0°C degres une phrase apparait "voulais vous vous rechaufer voici les hotel du feu "
 si on se trouve dans un endroit chaud ces a dire a plus de 30°C degres une phrase apparai "voulais vous une baignade voici les hotel du eau"
 si on se trouve dans un endroit centre ville  ces a dire des grandes villes "voulais vous etre loin de la polution et respirer voici les hotel de l'air "
