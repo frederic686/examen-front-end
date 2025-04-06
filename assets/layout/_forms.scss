@@ -1,0 +1,13 @@
+@use "../abstracts/colors";
+
+
+
+form {
+    background-color: colors.$background-color;
+    width: 60%;
+    height: 50vh;
+    margin: 15rem;
+    padding: 2rem;
+    border-radius: 10%;
+
+}
