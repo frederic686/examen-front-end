@@ -16,7 +16,59 @@ form {
     border-radius: 10%;
 
 }
+@media (max-width: 768px) {
 
+    .hotel {
+      flex-direction: column;
+    }
+  
+    .hotel-1, .hotel-2, .hotel-3, .hotel-4 {
+      flex-direction: column;
+    }
+  
+    section {
+        width: 100%;
+    }
+    .imghotel-1, .imghotel-2, .imghotel-3, .imghotel-4 {
+      width: 100%;
+      img {
+        width: 100%;
+  }
+    }
+  
+    .description-1, .description-2, .description-3, .description-4 {
+      padding: 2rem;
+    }
+  
+    .item {
+      width: 100%; 
+      padding: 2rem;
+
+    }
+    .item-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  
+  
+    .navigation ul {
+      flex-direction: column;
+    }
+  
+
+  .about{
+    width: 100%;
+    .about-title {
+        text-align: right;
+        position: absolute;
+    }
+}
+.video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+}
 .reservation {
     height: auto;
 }
@@ -120,63 +172,3 @@ form {
     object-fit: cover;
 }
 
-@media (max-width: 768px) {
-
-    .hotel {
-      flex-direction: column;
-    }
-  
-    .hotel-1, .hotel-2, .hotel-3, .hotel-4 {
-      flex-direction: column;
-    }
-  
-    section {
-        width: 100%;
-    }
-    .imghotel-1, .imghotel-2, .imghotel-3, .imghotel-4 {
-      width: 100%;
-      img {
-        width: 100%;
-  }
-    }
-  
-    .description-1, .description-2, .description-3, .description-4 {
-      padding: 2rem;
-    }
-  
-    .item {
-      width: 100%; 
-      padding: 2rem;
-
-    }
-    .item-2 {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-  
-    .footcolumn {
-      flex-direction: column;
-    }
-  
-    .footcolumn-1, .footcolumn-2, .footcolumn-3 {
-      width: 100%; 
-    }
-  
-    .navigation ul {
-      flex-direction: column;
-    }
-  
-
-  .about{
-    width: 100%;
-    .about-title {
-        text-align: right;
-        position: absolute;
-    }
-}
-.video {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
-}
