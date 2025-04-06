@@ -1,3 +1,26 @@
+@use "../abstracts/colors";
+@use "../components/fonts/font";
+
+@media (max-width: 768px) {
+    .footcolumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+        height:45rem;
+        width: 100%;
+
+        .footcolumn-1 , .footcolumn-2 , .footcolumn-3 {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+}
+
 .footcolumn {
     display: flex;
     flex-direction: row;
@@ -9,4 +32,15 @@
     width: 30%;
     display: flex;
     flex-direction: column;
+}
+
+.footnav {
+    li {
+        list-style-type: none;
+        a{
+            color: colors.$primary-color;
+        }
+       
+
+    }
 }

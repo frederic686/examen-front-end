@@ -66,6 +66,10 @@
                 align-items: center;
                 li {
                     list-style-type: none;
+
+                    a{
+                        color: colors.$primary-color;
+                    }
                     
         
                 }
