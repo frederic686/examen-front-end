@@ -212,10 +212,6 @@ main {
   background-color: #e5e0dc;
 }
 
-.reservation {
-  height: auto;
-}
-
 @media (max-width: 768px) {
   .hotel {
     flex-direction: column;
@@ -223,13 +219,7 @@ main {
   .hotel-1, .hotel-2, .hotel-3, .hotel-4 {
     flex-direction: column;
   }
-  section {
-    width: 100%;
-  }
-  .imghotel-1, .imghotel-2, .imghotel-3, .imghotel-4 {
-    width: 100%;
-  }
-  .imghotel-1 img, .imghotel-2 img, .imghotel-3 img, .imghotel-4 img {
+  section, .imghotel-1, .imghotel-2, .imghotel-3, .imghotel-4 {
     width: 100%;
   }
   .description-1, .description-2, .description-3, .description-4 {
@@ -243,6 +233,12 @@ main {
     display: flex;
     flex-direction: column-reverse;
   }
+  .footcolumn {
+    flex-direction: column;
+  }
+  .footcolumn-1, .footcolumn-2, .footcolumn-3 {
+    width: 100%;
+  }
   .navigation ul {
     flex-direction: column;
   }
@@ -252,6 +248,11 @@ main {
   .about .about-title {
     text-align: right;
     position: absolute;
+  }
+  .about .about-title h1 {
+    font-family: sans-serif;
+    font-size: 5vw;
+    color: #d9c7b3;
   }
   .video {
     width: 100%;
